@@ -78,3 +78,45 @@ a{
     height: 100%;
 }
 /* banner part end */
+/* featured part start */
+#featured{
+    margin: 120px 0;
+}
+.featured-content{
+   
+}
+.featured-content .featured-text{
+    max-width: 550px;
+    text-align: center;
+    margin: 0 auto;
+}
+.featured-text p{
+    padding: 15px 0;
+}
+.featured-flower{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.featured-flower .card{
+    width: 33%;
+    background-color: black;
+    display: flex;
+    align-items: end;
+    border-radius: 50% 50% 0 0;
+}
+.featured-flower .card img{
+    width: 100%;
+    height: 90%;
+    object-fit: contain;
+}
+.featured-flower .card:nth-child(1){
+    background-color: #f2dee7;
+}
+.featured-flower .card:nth-child(2){
+    background-color: #d9eff1;
+}
+.featured-flower .card:nth-child(3){
+    background-color: #e3ebdb;
+}
+/* featured part end */
