@@ -155,7 +155,6 @@ a{
 .deal-content .deal-text{
     max-width: 580px;
     text-align: center;
-    border: 1px solid red;
 }
 .deal-text p{
     padding: 15px 0;
@@ -165,3 +164,31 @@ a{
     height: 100%;
 }
 /* deal part end */
+/* instagram part start */
+#instagram{
+    margin: 100px 0;
+}
+.instagram-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.instagram-text{
+    max-width: 500px;
+    text-align: center;
+}
+.instagram-text p{
+    padding: 15px 0;
+}
+.instagram-image{
+   display: flex;
+   justify-content: space-around;
+   column-gap: 10px;
+   margin: 60px 0;
+}
+.instagram-image .inner-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* instagram part end */
