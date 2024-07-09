@@ -222,3 +222,19 @@ form input{
     padding: 12px 0 12px 10px;
 }
 /* latest part end */
+/* footer parrt start */
+.footer-content{
+    background-color: black;
+    padding: 50px 0;
+}
+.footer-text{
+    max-width: 405px;
+    text-align: center;
+    margin: 0 auto;
+}
+.footer-text p{
+    width: 100%;
+    padding: 15px 0;
+}
+/* footer parrt end */
+
