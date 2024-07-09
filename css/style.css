@@ -192,3 +192,33 @@ a{
     object-fit: contain;
 }
 /* instagram part end */
+/* latest part start */
+.latest-container{
+    background-image: url(../asset/latst.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    
+}
+.latest-content{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  black;
+}
+.latest-text{
+    max-width: 800px;
+    text-align: center;
+}
+.latest-text p{
+    padding: 15px 0;
+}
+form input{
+    border: none;
+    width: 70%;
+    background-color: #ffe5e5;
+    padding: 12px 0 12px 10px;
+}
+/* latest part end */
